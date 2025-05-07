@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.CommerHelper", "ShoppingApp.CommerHelper.csproj", "{E9C69515-D5A4-439C-8503-57F69AEBAF31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShoppingApp.CommerHelper", "MyShoppingApp.CommerHelper.csproj", "{E9C69515-D5A4-439C-8503-57F69AEBAF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShoppingApp.DataAccessLayer", "..\MyShoppingApp.DataAccessLayer\MyShoppingApp.DataAccessLayer.csproj", "{12A6542D-751D-40F8-BB44-723415A0D4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShoppingApp.Models", "..\MyShoppingApp.Models\MyShoppingApp.Models.csproj", "{5B6FFC00-7490-4260-8E7A-F21BFFB1C98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShoppingApp.Web", "..\MyShoppingApp.Web\MyShoppingApp.Web.csproj", "{7F58BF96-F05F-4048-80D3-8B8E65CBEC2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E9C69515-D5A4-439C-8503-57F69AEBAF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C69515-D5A4-439C-8503-57F69AEBAF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C69515-D5A4-439C-8503-57F69AEBAF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A6542D-751D-40F8-BB44-723415A0D4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A6542D-751D-40F8-BB44-723415A0D4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A6542D-751D-40F8-BB44-723415A0D4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A6542D-751D-40F8-BB44-723415A0D4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6FFC00-7490-4260-8E7A-F21BFFB1C98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6FFC00-7490-4260-8E7A-F21BFFB1C98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6FFC00-7490-4260-8E7A-F21BFFB1C98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6FFC00-7490-4260-8E7A-F21BFFB1C98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F58BF96-F05F-4048-80D3-8B8E65CBEC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F58BF96-F05F-4048-80D3-8B8E65CBEC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F58BF96-F05F-4048-80D3-8B8E65CBEC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F58BF96-F05F-4048-80D3-8B8E65CBEC2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
